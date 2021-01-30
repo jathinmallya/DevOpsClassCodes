@@ -9,7 +9,7 @@ pipeline{
                 git url: 'https://github.com/jathinmallya/DevOpsClassCodes.git'       
                 }
           }
-          stage ('complie') {
+          stage ('compile') {
               steps {
                  sh 'mvn complie'
               }
